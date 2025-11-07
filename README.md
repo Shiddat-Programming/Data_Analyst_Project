@@ -20,3 +20,19 @@ It covers every stage of the analytics pipeline:
 ---
 
 ## 🧩 Folder Structure
+
+📦 data-analyst-realtime-project
+│
+├── db/
+│ ├── schema.sql # Database schema (tables for regions, customers, products, sales)
+│ └── seed_data.py # Script to populate sample data
+│
+├── etl/
+│ ├── fetch_data.py # Fetch data from MySQL → CSV for Power BI
+│ └── scheduler.py # Automate ETL using schedule library
+│
+├── powerbi/
+│ └── sales_data.csv # Output data file used in Power BI
+│
+├── requirements.txt # Required Python dependencies
+└── README.md # Project documentation
