@@ -1,0 +1,4 @@
+pandas 
+scheduler 
+mysql.conntector 
+
